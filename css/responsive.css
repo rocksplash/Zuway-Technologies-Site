@@ -16,18 +16,12 @@ html, body {
   z-index: 0; /* video layer */
 }
 
-/* Optional overlay — delete if you don't want darkening */
-.overlay-gradient {
-  position: fixed;
-  inset: 0;
-  background: none;       /* set to none per your preference */
-  z-index: 1;
-}
+
 
 /* Center the heading block */
 .container {
   position: relative;
-  z-index: 2;             /* above video/overlay */
+  z-index: 1;             /* above video/overlay */
   height: 100vh;
   display: flex;
   align-items: center;
