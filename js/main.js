@@ -4,8 +4,8 @@ const cursorEl = document.querySelector(".cursor");
 
 const LEFT_TEXT = "Zuway ";
 const RIGHT_TEXT = "Technologies";
-const INITIAL_BLINK_MS = 2500; // wait before typing starts
-const SPEED_MS = 80; // typing speed per character
+const INITIAL_BLINK_MS = 2000; // wait before typing starts
+const SPEED_MS = 49; // typing speed per character
 
 function typeInto(el, str, perCharMs) {
   return new Promise((resolve) => {
