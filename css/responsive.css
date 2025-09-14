@@ -60,7 +60,7 @@ html, body {
 .cursor {
   width: 2px;
   height: 1em;
-  margin-right: 8px;
+  margin-right: 0px;
   background: white;
   animation: blink 0.7s steps(1) infinite; /* snappier blink */
 }
